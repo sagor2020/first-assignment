@@ -1,0 +1,231 @@
+/* Font Style */
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Nav style */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 28px;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul a{
+  font-size: 20px;
+}
+
+/* Button Style */
+.nav-button{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(13, 19, 33, 0.68);
+  background-color: white;
+  padding: 17px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.head{
+  background-image: url("/assets/Hero-bg.png");
+  padding-bottom: 50px;
+}
+.main-group{
+  text-align: center;
+}
+.group-title{
+  font-weight: 800;
+  font-size: 48px;
+  color: #0D1321;
+  text-align: center;
+}
+.group-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #0D1321;
+  padding: 24px 73px;
+  text-align: center;
+}
+.contact-btn{
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: #0D1321;
+  padding: 20px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Main Part Style */
+.main-bg{
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+}
+main{
+  max-width: 1140px;
+  margin: 30px auto;
+  padding: 50px 50px;
+}
+.main-content{
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  
+}
+.main-img{
+  width: 100%;
+}
+.common{
+  background-color: white;
+  border-radius: 16px;
+}
+.common-title{
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(13, 19, 33, 0.68);
+  padding: 0px 48px;
+}
+.common-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: color: rgba(13, 19, 33, 0.68);
+  padding: 0px 48px;
+}
+.learn-more-btn{
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(13, 19, 33, 0.68);
+  padding: 12px 20px;
+  margin-top: 32px;
+  margin-left: 48px;
+  border-radius: none;
+  cursor: pointer;
+}
+
+/* Section Carrier Style */
+section{
+  max-width: 1140px;
+  margin: 0px auto;
+  margin-top: 80px;
+  margin-bottom: 97px;
+  text-align: center;
+}
+.zero{
+  background-color: #f7f9fd;
+  border-radius: 16px;
+  padding: 32px 32px;
+}
+.zero-img{
+  border-radius: 16px;
+  height: 100%;
+}
+
+/* Skills Style */
+.skill-container{
+  display: flex;
+  gap: 24px;
+  text-align: left;
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+.skill-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #0D1321;
+}
+.space{
+  padding: 40px 40px;
+}
+.box-1{
+  background-color: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+}
+.box-2{
+  background-color: rgba(0, 76, 232, 0.03);
+  border-radius: 16px;
+}
+.box-3{
+  background-color: rgba(251, 226, 56, 0.08);
+  border-radius: 16px;
+}
+.btn-strong{
+  font-size: 16px;
+  text-decoration: underline;
+  color: #0D1321;
+}
+
+/* Submit Section */
+.submit-section{
+  border-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  max-height: 313px;
+  background-image: url("/assets/handshake.jpg");
+  padding-bottom: 30px;
+}
+.sub-title{
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+}
+.sub-desc{
+  font-weight: 400;
+  font-size: 18px;
+  color: azure;
+  padding-bottom: 12px;
+}
+.submit{
+  padding-top: 50px;
+  width: 100%;
+}
+input[type="text"]{
+  border-radius: 8px;
+  background-color: white;
+  width: 50%;
+  padding: 20px 20px;
+  border: none;
+}
+input[type="submit"]{
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px 30px;
+    border: none;
+  }
+.btn-sub{
+   margin-bottom: 50px;
+  }
+.strong-sub{
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+/* Footer Style */
+footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 90px;
+}
+.main-footer{
+  background-color: rgba(13, 19, 33, 0.08);
+  row-gap: 50px;
+}
+.fb, .ins, .lin{
+  padding: 10px;
+}
+.footer-title{
+  font-weight: 600;
+  font-size: 20px;
+  color: #373A50;
+}
