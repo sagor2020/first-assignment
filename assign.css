@@ -165,11 +165,10 @@ section{
 
 /* Submit Section */
 .submit-section{
+  background-image: url("assets/handshake.jpg");
   border-radius: 16px;
   background-position: center;
   background-size: cover;
-  max-height: 313px;
-  background-image: url("/assets/handshake.jpg");
   padding-bottom: 30px;
 }
 .sub-title{
